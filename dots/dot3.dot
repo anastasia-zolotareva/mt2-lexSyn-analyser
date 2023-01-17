@@ -1,0 +1,43 @@
+digraph G {
+0 [label = "S"]
+1 [label = "V"]
+0 -> 1
+2 [label = "K"]
+1 -> 2
+3 [label = "C"]
+2 -> 3
+4 [label = "char"]
+3 -> 4
+5 [label = "K1"]
+2 -> 5
+6 [label = "eps"]
+5 -> 6
+7 [label = "V1"]
+1 -> 7
+8 [label = "eps"]
+7 -> 8
+9 [label = "S1"]
+0 -> 9
+10 [label = "|"]
+9 -> 10
+11 [label = "V"]
+9 -> 11
+12 [label = "K"]
+11 -> 12
+13 [label = "C"]
+12 -> 13
+14 [label = "char"]
+13 -> 14
+15 [label = "K1"]
+12 -> 15
+16 [label = "eps"]
+15 -> 16
+17 [label = "V1"]
+11 -> 17
+18 [label = "eps"]
+17 -> 18
+19 [label = "S1"]
+9 -> 19
+20 [label = "eps"]
+19 -> 20
+}

@@ -1,0 +1,91 @@
+digraph G {
+0 [label = "S"]
+1 [label = "V"]
+0 -> 1
+2 [label = "K"]
+1 -> 2
+3 [label = "C"]
+2 -> 3
+4 [label = "("]
+3 -> 4
+5 [label = "S"]
+3 -> 5
+6 [label = "V"]
+5 -> 6
+7 [label = "K"]
+6 -> 7
+8 [label = "C"]
+7 -> 8
+9 [label = "char"]
+8 -> 9
+10 [label = "K1"]
+7 -> 10
+11 [label = "eps"]
+10 -> 11
+12 [label = "V1"]
+6 -> 12
+13 [label = "eps"]
+12 -> 13
+14 [label = "S1"]
+5 -> 14
+15 [label = "eps"]
+14 -> 15
+16 [label = ")"]
+3 -> 16
+17 [label = "K1"]
+2 -> 17
+18 [label = "eps"]
+17 -> 18
+19 [label = "V1"]
+1 -> 19
+20 [label = "eps"]
+19 -> 20
+21 [label = "S1"]
+0 -> 21
+22 [label = "|"]
+21 -> 22
+23 [label = "V"]
+21 -> 23
+24 [label = "K"]
+23 -> 24
+25 [label = "C"]
+24 -> 25
+26 [label = "("]
+25 -> 26
+27 [label = "S"]
+25 -> 27
+28 [label = "V"]
+27 -> 28
+29 [label = "K"]
+28 -> 29
+30 [label = "C"]
+29 -> 30
+31 [label = "char"]
+30 -> 31
+32 [label = "K1"]
+29 -> 32
+33 [label = "eps"]
+32 -> 33
+34 [label = "V1"]
+28 -> 34
+35 [label = "eps"]
+34 -> 35
+36 [label = "S1"]
+27 -> 36
+37 [label = "eps"]
+36 -> 37
+38 [label = ")"]
+25 -> 38
+39 [label = "K1"]
+24 -> 39
+40 [label = "eps"]
+39 -> 40
+41 [label = "V1"]
+23 -> 41
+42 [label = "eps"]
+41 -> 42
+43 [label = "S1"]
+21 -> 43
+44 [label = "eps"]
+43 -> 44
+}
